@@ -1,0 +1,67 @@
+
+
+body {
+    background: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contenedor {
+    background: white;
+    width: 400px;
+   margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    padding: 10px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.header :nth-child(2){
+    flex: 1 100%;
+    padding-left: 5px;
+}
+
+#gato {
+    padding: 0px;
+}
+
+
+
+.header span {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    
+   
+}
+
+img {
+    width: 100%;
+}
+
+.footer  {
+    padding: 10px 10px;
+    
+}
+
+.iconos-footer {
+    display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+   
+}
+
+#marcador {
+    padding-left: 270px;
+}
+
+.footer p {
+    font-size: 15px;
+}
+
+
+
